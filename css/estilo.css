@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner&display=swap');/*Agbalumo, Edu TAS Beginner*/
+
+/*Limpar fomrataçõs padrão */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Agbalumo', 'Edu TAS Beginner', sans-serif;
+  background: #e6e6e6;
+}
+
+/*Layout */
+#area-cabecalho {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo, #area-menu {
+  padding: 10px;
+}
+
+#area-principal {
+  width: 920px;
+  margin: 0 auto; /* auto paramargm autoática */
+}
+
+#area-postagens, #area-lateral {
+  background: orange;
+}
+
+#area-postagens {
+  width: 660px;
+  float: left;
+  text-align: justify;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+  padding: 10px;
+  color: white;
+  text-align: justify;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #CCC;
+  width: 100%;
+}
+
+#leia {
+  color: orange;
+  padding: 0px;
+}
+
+/*Formatação do menu */
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #FFF;
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #f7b600;
+  background: #FFF;
+}
+
+/*Formatação em geral */
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+  }
+
+.branco {
+  color: white;
+}
+
+.postagem p {
+  margin-bottom: 10px;
+}
+
+/*Formatação tabelas - Condução elétrica em sólidos e líquido*/
+.tg  {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Agbalumo', 'Edu TAS Beginner', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Agbalumo', 'Edu TAS Beginner', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-c3ow {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-cnwr {
+  background-color:#ffcc67;
+  border-color: inherit;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-3xi5 {
+  background-color:#ffffff;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-baqh {
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-nbj5 {
+  background-color: #FFF;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-0lax {
+  text-align: left;
+  vertical-align: top;
+}
+
+/*Formatação da lista */
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+
+/*Formatação do formulário */
+body {
+  font-family:'Agbalumo', 'Edu TAS Beginner', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #f7b600;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #ffcc67;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
