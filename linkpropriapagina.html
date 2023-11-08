@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home - TecBlog</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <link rel="stylesheet" href="/action_page.php">
+    <link rel="icon" type="image/x-icon" href="/imagens/home.ico">
+  </head>
+  <body>
+    <header>
+      <div id="area-cabecalho">
+        <div id="area-logo">
+          <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="jogos.html">Jogos</a>
+          <a href="celulares.html">Celulares</a>
+          <a href="informatica.html">Informática</a>
+          <a href="eletronicos.html">Eletrônicos</a>  
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="area-principal">
+        <article id="area-postagens">
+          <div class="postagem">
+            <h2>Introdução</h2>
+            <p>Atualizado diariamente</p>
+            <img width="620px" src="imagens/bonner.webp" alt="Jornal Nacional"/>
+            <br>
+            <br>
+            <h4>Muito boa noite!</h4>
+            <br>
+            <p>Gostou do nosso trabalho? Tem algo para compartilhar com a gente e o mundo inteiro?</p>
+            <p>Entre em contato conosco!</p>
+            <form>
+              <label for="fname"><h4>Nome completo</h4></label>
+              <input type="text" id="fname" name="firstname" placeholder="Fulano...">
+              
+              <legend><h4>Faixa etária</h4></legend>
+              <fieldset>
+                <input type="radio" name="idade"><label>0 a 15</label>
+                <br>
+                <input type="radio" name="idade"><label>16 a 18</label>
+                <br>
+                <input type="radio" name="idade"><label>19 a 30</label>
+                <br>
+                <input type="radio" name="idade"><label>31 ou mais</label>
+              </fieldset>
+
+              <br>
+
+              <label for="country"><h4>Estado</h4></label>
+              <select id="country" name="country">
+                <option value="acre">Acre</option>
+                <option value="alagoas">Alagoas</option>
+                <option value="amapá">Amapá</option>
+                <option value="amazonas">Amazonas</option>
+                <option value="bahia">Bahia</option>
+                <option value="ceará">Ceará</option>
+                <option value="espírito santo">Espírito Santo</option>
+                <option value="goiás">Goiás</option>
+                <option value="maranhão">Maranhão</option>
+                <option value="mato grosso">Mato Grosso</option>
+                <option value="mato grosso do sul">Mato Grosso do Sul</option>
+                <option value="minas gerais">Minas Gerais</option>
+                <option value="pará">Pará</option>
+                <option value="paraíba">Paraíba</option>
+                <option value="paraná">Paraná</option>
+                <option value="pernambuco">Pernambuco</option>
+                <option value="piauí">Piauí</option>
+                <option value="rio de janeiro">Rio de Janeiro</option>
+                <option value="rio grande do norte">Rio Grande do Norte</option>
+                <option value="rio grande do sul">Rio Grande do Sul</option>
+                <option value="rondônia">Rondônia</option>
+                <option value="roraima">Roraima</option>
+                <option value="santa catarina">Santa Catarina</option>
+                <option value="são paulo">São Paulo</option>
+                <option value="sergipe">Sergipe</option>
+                <option value="tocantins">Tocantins</option>
+                <option value="distrito federal">Distrito Federal</option>
+              </select>
+              
+              <label for="fname"><h4>Universidade</h4></label>
+              <input type="text" id="fname" name="firstname" placeholder="Nome da Faculdade...">
+              
+              <label for="fname"><h4>Curso</h4></label>
+              <input type="text" id="fname" name="firstname" placeholder="Bacharelado da Ciência da Computação...">
+
+              <label><h4>Redes Sociais</h4></label>
+              <fieldset> 
+                <input type="checkbox" name="redes"><label>Instagram</label>
+                <input type="checkbox" name="redes"><label>WhatsApp</label>
+                <input type="checkbox" name="redes"><label>Facebook</label>
+                <input type="checkbox" name="redes"><label>Linkedin</label>
+                <input type="checkbox" name="redes"><label>Twitter</label>
+              </fieldset>
+
+              <br>
+
+              <label for="subject"><h4>Mensagem</h4></label>
+              <textarea id="subject" name="subject" placeholder="Escreva algo..." style="height:100px"></textarea>
+              
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </article>
+        <aside id="area-lateral">
+          <h3>Menu Lateral</h3>
+          <h4>Quem somos?</h4>
+          <p>O TecBlog é um site informativo sobre diversas áreas do conhecimento. 
+            Se você busca informações sobre tendências dos novos eletrônicos disponíveis no mercado, você está no espaço certo. 
+            Mas se você procura um jogo divertido para passar o tempo ou para aprender, não vá embora! 
+            Aqui você encontra tudo isso e muito mais.
+            Busque seu café que é hora de leitura!</p>
+          <h4>Contato:</h4>
+          <p>tecblog@gmail.com</p>
+        </aside>
+      </section>
+    </main>
+    <footer>
+      <div id="rodape">
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
